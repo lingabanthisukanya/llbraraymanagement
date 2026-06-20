@@ -1,0 +1,100 @@
+.profile-container {
+  width: 100%;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.profile-card {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.profile-header {
+  background: linear-gradient(135deg, #00bcd4, #26c6da);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: white;
+  color: #00acc1;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-info h2 {
+  color: white;
+  margin: 0;
+}
+
+.profile-info p {
+  color: rgba(255,255,255,0.9);
+  margin-top: 5px;
+}
+
+.admin-badge {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.stat-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.details-section {
+  display: flex;
+  gap: 15px;
+  padding: 0 20px 20px;
+  flex-wrap: wrap;
+}
+
+.detail {
+  flex: 1;
+  min-width: 180px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.action-buttons {
+  padding: 0 20px 20px;
+}
+
+.edit-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #00bcd4;
+  color: white;
+  cursor: pointer;
+}

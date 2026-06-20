@@ -1,0 +1,58 @@
+
+
+body {
+  background: #edf1f5;
+  margin: 0;
+  padding: 0;
+  min-height: 120vh;
+}
+
+.sidebar {
+  background: #06142d;
+  min-height: 100vh;
+  color: white;
+  padding: 20px 30px;
+}
+
+.sidebar h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.sidebar p {
+  font-size: 18px;
+  margin: 25px 0;
+  cursor: pointer;
+}
+
+.sidebar p:hover {
+  color: #4f8cff;
+}
+
+.main {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.card-box {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.stat-number {
+  font-size: 35px;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+table td,
+table th {
+  padding: 14px !important;
+}

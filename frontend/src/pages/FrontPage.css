@@ -1,0 +1,175 @@
+/* Full page */
+.outer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+   justify-content: center; /* horizontal center */
+
+}
+
+/* Dark overlay for readability */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Content */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  max-width: 700px;
+}
+
+.hero-content h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.hero-content h3 {
+  font-size: 2rem;
+  margin: 10px 0;
+  color: #e2e8f0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Button */
+.button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 40px;
+  background: #7dd3fc;
+  color: #0f172a;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  background: #38bdf8;
+}
+
+
+a {
+  text-decoration: none;
+}
+.about {
+  padding: 80px 10%;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 42px;
+  color: #0f172a;
+  margin-bottom: 25px;
+}
+
+.about p {
+  max-width: 900px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #475569;
+}
+
+.about-cards {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  padding: 30px;
+
+  background: whitesmoke;
+  border-radius: 15px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  color: #0284c7;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 16px;
+}
+.why-us {
+  padding: 80px 10%;
+  background: linear-gradient(
+    to bottom,
+    #f8fafc,
+    #e0f2fe
+  );
+  text-align: center;
+}
+
+.why-us h2 {
+  font-size: 42px;
+  color: #0f172a;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.why-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.why-card {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(2, 132, 199, 0.15);
+}
+
+.why-card h3 {
+  color: #0284c7;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.why-card p {
+  color: #475569;
+  line-height: 1.7;
+  font-size: 16px;
+}
