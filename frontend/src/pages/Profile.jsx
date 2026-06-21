@@ -1,4 +1,4 @@
-import "./Profile.css";
+import "./profile.css";
 import axios from "axios";
 import { FaUserShield, FaBook, FaUsers, FaClipboardList } from "react-icons/fa";
 import {useState,useEffect} from "react";
